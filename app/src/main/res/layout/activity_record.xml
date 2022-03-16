@@ -49,4 +49,15 @@
         app:layout_constraintBottom_toTopOf="@+id/add_a_package"
         tools:layout_editor_absoluteX="155dp" />
 
+    <Button
+        android:id="@+id/search_by_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="searchHistoryById"
+        android:text="Search by id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
